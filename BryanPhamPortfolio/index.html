@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Bryan's Portfolio</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="brand">
+            Bryan's Portfolio
+        </div>
+        <div class="links" id = links>
+            <a href = "#skills" class="link" >Skills</a> <!--Inline style to force link to be green because github pages having trouble looking at some SCSS lines -->
+            <a href = "#work" class="link"  >Work</a>
+            <a href = "#contact" class="link"  >Contact</a> 
+        </div>
+    </div> <!--navbar end-->
+
+    <div class="splash">
+        <h1>Front end Developer</h1>
+        <h3>I design and code visually appealing, dynamic web apps </h3>
+        <img src="img/bp-profile.jfif" alt="businessman-png2">
+    </div> <!-- splash end-->
+
+    <div class="about">
+        <h1>About Me</h1>
+        <p>
+            I am a senior STEM major attending university with a very strong academic record.  
+            I have experience working as a freelance developer and 
+            I have always enjoyed coding side projects outside of class. 
+            I am a fast learner who always try to find ways to  sharpen my skillset.
+        </p>
+    </div> <!-- about end-->
+
+    <div id = "skills" class="skills">
+        <div class="design">
+            <h1>Design </h1>
+            <img src="img/sketch-freepik.png" alt="sketch-img">
+            <p> I value beauty, simplicity, and ease of use in the designs of my created apps.  </p>
+            <h2>I have designed: </h2>
+            <p>  Resposive Websites, UI and Web Applications</p>
+            <h2> Tools </h2>
+            <p> Figma, Krita, Photoshop</p>
+        </div>
+        <div class="front-end">
+            <h1>Front End </h1>
+            <img src="img/coding-kiranshastry.png" alt="coding-img">
+            <p> I design applications with a beautiful and responsive front-end design</p>
+            <h2> My Tech Stack:</h2>
+            <p>  HTML, CSS, SASS, Javascript, React.JS</p>
+            <h2> Tools </h2>
+            <p> Visual Studio, Git Bash, Chrome Dev Tools, Live Server, NPM  </p>
+        </div>
+    </div> <!-- skills-->
+
+    <div class="portfolio-header">
+        <h1>Client Projects</h1>
+    </div>
+    <div class="click-image-text">Click on image to learn more about each project</div>
+    <div id = "work" class="portfolio">
+        <div class="portfolio-container">
+            <div class="image-side">
+                <div class="image-header">
+                    George Kurtzweil
+                </div>
+                <a href="./pages/kurtzweil.html">
+                    <img src="img/kurtzweil-website.jpg" alt="KurtzweilScreenShot">
+                </a>
+
+                <div class="project-links-wrapper">
+                    <a href="https://github.com/bryan-pham-124/GeorgeKurtzweilWebsite" class = "project-link"> Github Repository</a>
+                    <a href="http://georgekurtzweil.com/" class = "project-link">Live Version</a>
+                </div>
+            </div>
+        </div> <!-- portfol container end-->
+        <div class="portfolio-container">
+            <div class="image-side">
+                <div class="image-header">
+                    Vivek Banerjee
+                </div>
+                <a href="./pages/banerjee.html">
+                    <img src="img/vivek-website.jpg" alt="BudgetScreenShot">
+                </a>
+                <div class="project-links-wrapper">
+                    <a href="https://github.com/bryan-pham-124/VivekBanerjeeWebsite" class = "project-link">Github Repository</a>
+                    <a href="http://vivekjyotibanerjee.com/" class = "project-link">Live Version</a>
+                </div>
+            </div>
+        </div> <!-- portfol container end-->
+    </div> <!--portfolio end-->
+
+
+    <div class="portfolio-header">
+        <h1>Featured Side Projects</h1>
+    </div>
+
+    <div  class="portfolio">
+        <div class="portfolio-container">
+            <div class="image-side">
+                <div class="image-header">
+                    Excelsior 
+                </div>
+                <a href="./pages/excelsior.html">
+                    <img src="img/xcelsior.PNG" alt="ExcelsiorScreenShot">
+                </a>
+
+                <div class="project-links-wrapper">
+                    <a href="https://github.com/bryan-pham-124/ExcelsiorWebsitev2" class = "project-link"> Github Repository</a>
+                    <a href="https://bryan-pham-124.github.io/ExcelsiorWebsitev2/" class = "project-link">Live Version</a>
+                </div>
+            </div>
+        </div> <!-- portfol container end-->
+        <div class="portfolio-container">
+            <div class="image-side">
+                <div class="image-header">
+                    Budget Dashboard
+                </div>
+                <a href="./pages/budget-dashboard.html">
+                    <img src="img/budget.PNG" alt="BudgetScreenShot">
+                </a>
+                <div class="project-links-wrapper">
+                    <a href="https://github.com/bryan-pham-124/BudgetDashboard" class = "project-link">Github Repository</a>
+                    <a href="https://bryan-pham-124.github.io/BudgetDashboard/" class = "project-link">Live Version</a>
+                </div>
+            </div>
+        </div> <!-- portfol container end-->
+    </div> <!--portfolio end-->
+
+    <div class="contact-info"  id = 'contact'>
+        <h1 class="contact-header">Contact </h1>
+        <div class="contact-entries">
+            <div class="contact-entry">
+                <span>Email: </span> bpham123@umd.edu
+            </div>
+            <div class="contact-entry">
+                <span>Phone: </span> 443-666-1999
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+         <h1>Bryan's Portfolio</h1>
+         <p>Handcrafted by Bryan</p>
+
+         <a href="#links">
+            <h5>Back to top</h5>
+         </a>
+     </footer>
+
+</body>
+</html>
